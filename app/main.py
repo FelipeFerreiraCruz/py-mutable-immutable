@@ -17,7 +17,6 @@ marks = {
 collection_of_coins = {1, 2, 25}
 
 
-# Imprimindo todos os tipos
 print("Lucky number:", lucky_number)
 print("Pi value:", pi)
 print("Is one a prime number?", one_is_a_prime_number)
@@ -29,26 +28,21 @@ print("Coin collection:", collection_of_coins)
 
 print("\n--- Testando mutabilidade ---")
 
-# Strings são imutáveis: não dá pra modificar diretamente
 try:
     name[0] = "B"
 except TypeError as e:
     print("Strings são imutáveis → erro:", e)
 
-# Tuplas são imutáveis também
 try:
     profile_info[0] = "rafael"
 except TypeError as e:
     print("Tuplas são imutáveis → erro:", e)
 
-# Listas são mutáveis
 my_favourite_films.append("Fight Club")
 print("Filmes atualizados (lista é mutável):", my_favourite_films)
 
-# Dicionários são mutáveis
 marks["John"] = 5
 print("Notas atualizadas:", marks)
 
-# Conjuntos são mutáveis
 collection_of_coins.add(10)
 print("Coleção de moedas atualizada:", collection_of_coins)
