@@ -16,8 +16,6 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
-# write your code here
-
 
 # Imprimindo todos os tipos
 print("Lucky number:", lucky_number)
